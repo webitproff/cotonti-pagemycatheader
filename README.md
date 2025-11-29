@@ -28,8 +28,31 @@ Perfect for documentation sites, blogs, portals, and any site where unique heade
 - **Zero core modifications:** Works as a regular plugin without changing Cotonti itself.
 - **Requirements:** PHP 8.4+, Cotonti Siena ≥0.9.26.
 
----
+___
+### These examples show the templates used by Cotonti, especially in relation to the $cfg['enablecustomhf'] setting.
 
+`/themes/2waydeal/header.tpl`
+
+	Function: The Mandatory Default Template (Fallback). Used when no other specific template file is found.
+	Condition: Used regardless of the `$cfg['enablecustomhf']` setting.
+	
+`/themes/2waydeal/header.list.tpl`
+
+	Function: The default template for displaying Page lists (article lists) in any category.
+	Condition: Used if `$cfg['enablecustomhf'] = true;`.
+
+`/themes/2waydeal/header.pages.tpl`
+
+	Function: The default template for displaying a single Page (article) in any category.
+	Condition: Used if `$cfg['enablecustomhf'] = true;`.
+
+
+***`/themes/2waydeal/header.page.user-guide.tpl`***
+
+	Function: The Custom Template outputted by the pagemycatheader plugin. It is applied to the user-guide category and all its descendants.
+	Condition: Used if `$cfg['enablecustomhf'] = true;`.
+
+___
 ## Installation
 
 1. **Copy plugin files**  
