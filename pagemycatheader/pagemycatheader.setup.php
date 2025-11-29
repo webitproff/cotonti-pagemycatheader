@@ -8,7 +8,7 @@ Description=Плагин для вывода пользовательского 
 Version=2.3.0
 Date=2025-11-29
 Author=webitproff
-Copyright=Copyright (c) webitproff 2025
+Copyright=Copyright (c) webitproff 2025 https://github.com/webitproff
 Notes=Требует Cotonti Siena ≥0.9.26, PHP 8.4+
 Auth_guests=R
 Lock_guests=12345A
@@ -30,10 +30,11 @@ parentcat=01:string::user-guide:Код родительской категори
  * @package pagemycatheader
  * @version 2.3.0
  * @author webitproff
- * @copyright Copyright (c) webitproff 2025 https://github.com/webitproff/cot-pagemycatheader
+ * @copyright Copyright (c) webitproff 2025 https://github.com/webitproff/cotonti-pagemycatheader/
  * @license BSD
  */
 
 defined('COT_CODE') or die('Wrong URL.');
+
 
 
