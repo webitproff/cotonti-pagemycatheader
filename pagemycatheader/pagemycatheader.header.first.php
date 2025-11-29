@@ -10,7 +10,6 @@ Hooks=header.first
 defined('COT_CODE') or die('Wrong URL.');
 
 // Подключаем основной файл плагина (pagemycatheader.functions.php), чтобы были доступны функции и настройки
-// У тебя файл функций лежит в корне плагина, поэтому путь именно такой
 require_once cot_incfile('pagemycatheader', 'plug');
 
 // Получаем из настроек плагина код родительской категории (например, "user-guide")
@@ -25,7 +24,7 @@ if ($parentCat === '') return;
 $targetLocation = 'page.' . $parentCat;
 
 // ====================================================================
-// САМОЕ ГЛАВНОЕ И ЕДИНСТВЕННО РАБОЧЕЕ РЕШЕНИЕ ДЛЯ ЧПУ В COTONTI SIENA
+// ДЛЯ ЧПУ В COTONTI SIENA
 // ====================================================================
 // При включённом ЧПУ в URL вида /ru/user-guide/projects-manual/tasks-general
 // переменные $_GET['c'] и $_GET['id'] пустые! Cotonti парсит URL сам.
@@ -90,3 +89,4 @@ if (!empty($_GET['id'])) {
         }
     }
 }
+
