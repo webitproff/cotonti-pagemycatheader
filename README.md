@@ -257,6 +257,26 @@ If you need dynamic, category-aware headers for your users, pagemycatheader is t
 - **Работает без вмешательства в ядро Cotonti**;
 - **Совместимость:** PHP 8.4+, Cotonti Siena ≥0.9.26.
 
+___
+
+примеры шаблонов
+
+**/themes/2waydeal/header.list.tpl**
+- шаблон по умолчанию для списков страниц (статей) и/в любой категории, если `$cfg['enablecustomhf'] = true;`
+
+
+**/themes/2waydeal/header.pages.tpl** 
+- шаблон по умолчанию для любой страницы(статьи) в любой категории, если `$cfg['enablecustomhf'] = true;`
+
+
+**/themes/2waydeal/header.tpl** 
+- шаблон по умолчанию, обязательный, НЕ ЗАВИСИТ от `$cfg['enablecustomhf'] = true;`
+
+
+***/themes/2waydeal/header.page.user-guide.tpl*** 
+- шаблон, который выводим при помощи плагина "pagemycatheader", если `$cfg['enablecustomhf'] = true;`
+
+___
 ---
 
 ## Установка
