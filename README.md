@@ -6,7 +6,7 @@
 
 A plugin for [Cotonti Siena](https://github.com/Cotonti/Cotonti) that enables flexible replacement of the header template `header.$location.tpl` for all pages in a chosen parent Page category and its child categories, including individual articles. It supports automatic routing for both SEO-friendly URLs and legacy URL parameters (`?c=`, `?id=`), does not require changes to the core, and works with any Cotonti theme.
 
-<img width="900" height="600" alt="This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product" src="https://raw.githubusercontent.com/webitproff/cot-menubyparentcat/refs/heads/main/Menu-by-Parent-Category-for-CMF-Cotonti-Siena-2025_0004.webp" />
+<img width="900" height="600" alt="custom template for the header of the site, depending on the parent category of articles" src="https://raw.githubusercontent.com/webitproff/cotonti-pagemycatheader/refs/heads/main/cotonti-pagemycatheader_0.webp" />
 
 # 🇬🇧 English
 ---
