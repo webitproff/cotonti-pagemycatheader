@@ -6,6 +6,9 @@
 
 A plugin for [Cotonti Siena](https://github.com/Cotonti/Cotonti) that enables flexible replacement of the header template `header.$location.tpl` for all pages in a chosen parent Page category and its child categories, including individual articles. It supports automatic routing for both SEO-friendly URLs and legacy URL parameters (`?c=`, `?id=`), does not require changes to the core, and works with any Cotonti theme.
 
+<img width="900" height="600" alt="This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product" src="https://raw.githubusercontent.com/webitproff/cot-menubyparentcat/refs/heads/main/Menu-by-Parent-Category-for-CMF-Cotonti-Siena-2025_0004.webp" />
+
+# 🇬🇧 English
 ---
 
 ## Description and Purpose
@@ -208,6 +211,16 @@ BSD License © 2025 webitproff
 
 ---
 
+## Copyright
+
+© webitproff, 27 Nov 2025, License BSD.
+
+---
+
+### You can hire me or propose a task
+
+**send me a message on [this page](https://abuyfile.com/users/webitproff)**
+
 ## Author, Support & Feedback
 
 Author: webitproff  
@@ -226,6 +239,8 @@ For questions, bugs, or suggestions, open an [issue on GitHub](https://github.co
 **This plugin helps organize flexible, section-based page headers for your Cotonti site, without duplicating template files!**  
 If you need dynamic, category-aware headers for your users, pagemycatheader is the solution.
 
+
+# 🇷🇺 Русский
 
 # Page My Custom Categories and Articles Header Template (pagemycatheader)
 
@@ -451,3 +466,15 @@ GitHub проекта: [https://github.com/webitproff/cotonti-pagemycatheader](h
 
 **Плагин помогает организовать гибкое визуальное оформление для рубрик и их содержимого без лишнего дублирования шаблонов!**  
 Если вашей задаче нужен динамический заголовок пользователю для группы категорий — pagemycatheader именно для этого.
+
+Если плагин оказался полезным — поставьте ⭐ на GitHub!
+
+---
+
+## Авторские права
+© webitproff, 27 Nov 2025, License BSD.
+
+--- 
+### Вы можете нанять меня или предложить задание 
+**напишите в личные сообщения на [этой странице](https://abuyfile.com/users/webitproff)**
+
